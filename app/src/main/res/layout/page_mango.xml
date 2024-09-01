@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbarThumbVertical="@null"
+
+    android:scrollbarThumbHorizontal="@null">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:src="@drawable/b" />
+
+        <TextView
+            android:id="@+id/best_shop_f"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="298dp"
+            android:gravity="center_horizontal|top"
+            android:paddingTop="10dp"
+            android:text="Best Shop Fruit"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/sell_and_bu"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="366dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_horizontal|top"
+            android:paddingRight="80dp"
+            android:text="get fresh and healthy fruit for you"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="183dp"
+            android:layout_marginTop="795dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/nonbutton"
+            android:gravity="top"
+            android:paddingRight="100dp"
+            android:text="next"
+            android:textColor="@color/yellow"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/log_in"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="506dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/yellowbutton"
+            android:gravity="center_horizontal|top"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

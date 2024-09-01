@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/hinhanh"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:src="@drawable/melon" />
+
+        <TextView
+            android:id="@+id/soluong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:paddingLeft="100dp"
+            android:text="1kg"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:text="$1000US"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/Gray"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="32dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_square"
+            android:backgroundTint="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/delete_cart"
+            android:layout_width="30dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/delete"
+            android:backgroundTint="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

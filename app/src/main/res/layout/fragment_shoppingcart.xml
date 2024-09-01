@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:weightSum="10"
+            android:id="@+id/relatL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/back"
+                android:layout_weight="2"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/arrow_circle_left"
+                android:backgroundTint="#F1C40F" />
+
+            <TextView
+                android:layout_weight="6"
+                android:id="@+id/shop"
+                android:layout_width="313dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Cart"
+                android:textColor="#F1C40F"
+                android:textSize="22sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_weight="2"
+                android:id="@+id/search_cart"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:background="@drawable/search"
+                android:backgroundTint="#F1C40F" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cartrecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_gravity="end"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:text="Total"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/price_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="150dp"
+            android:text="$0 US"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:weightSum="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/shop_fruit_checkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellowbutton"
+            android:text="CheckOut"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rectangle_4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="-24dp"
+    >
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="116dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="114dp"
+        android:gravity="center_horizontal|top"
+        android:text="sign In"
+        android:textColor="#000000"
+        android:textFontWeight="700"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/rectangle_1"
+        android:layout_width="354dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="237dp"
+        android:background="@drawable/mybutton"
+        android:hint="Email"
+        android:paddingLeft="35dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/rectangle_2"
+        android:layout_width="354dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="339dp"
+        android:background="@drawable/mybutton"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="35dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/forgot_pass"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="427dp"
+        android:background="@drawable/nonbutton"
+        android:gravity="center_horizontal|top"
+        android:text="forgot password?"
+        android:textColor="#C0C0C0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginRight="27dp"
+        android:background="@drawable/yellowbutton"
+        android:gravity="center_horizontal|top"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_in_men"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="588dp"
+        android:background="@drawable/nonbutton"
+        android:gravity="top"
+        android:text="      sign in menu  "
+        android:textColor="#ff0"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/forgot_pass"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:paddingRight="250dp"
+        android:text="nhớ đăng nhập " />
+
+
+</RelativeLayout>

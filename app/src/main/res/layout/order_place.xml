@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderPlace"
+    android:id="@+id/relat">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back_home"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/arrow_circle_left"
+        android:backgroundTint="#F1C40F" />
+<RelativeLayout
+    android:id="@+id/relation_order"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/image_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="67dp"
+        android:background="@drawable/orderfurit" />
+
+    <TextView
+        android:id="@+id/ellipse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginRight="56dp"
+        android:background="@drawable/background"
+        android:paddingTop="60dp"
+        android:text=" Order Place
+                        Your Order Number is"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/number_orderplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_cart"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="30dp"
+        android:gravity="center"
+        android:text="#399123"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+</RelativeLayout>
+
+</RelativeLayout>

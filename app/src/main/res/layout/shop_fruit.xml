@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbarThumbVertical="@null"
+
+    android:scrollbarThumbHorizontal="@null">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="538dp"
+            android:background="@drawable/arrow_circle_left"
+            android:backgroundTint="#F1C40F" />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="59dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="178dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="Shop"
+            android:textColor="#F1C40F"
+            android:textSize="22sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/vector"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/search"
+            android:backgroundTint="#F1C40F"
+            />
+
+
+        <ImageView
+            android:id="@+id/oi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="162dp"
+            android:background="@drawable/melon" />
+
+        <TextView
+            android:id="@+id/melon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/oi"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-21dp"
+            android:layout_marginTop="314dp"
+            android:gravity="center"
+            android:text="Melon"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/soluong"
+            android:layout_width="83dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/melon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="344dp"
+            android:background="@drawable/mybutton"
+            android:gravity="center"
+            android:text="1kg"
+            android:textColor="#F1C40F"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tanglen"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/melon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="347dp"
+            android:background="@drawable/up"
+            android:backgroundTint="#F1C40F" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/giamxuong"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/melon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="159dp"
+            android:layout_marginTop="347dp"
+            android:background="@drawable/down"
+            android:backgroundTint="#F1C40F" />
+
+        <TextView
+            android:id="@+id/shop_fruit_us"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/soluong"
+            android:gravity="center"
+            android:text="$1000 US"
+            android:textColor="#F1C40F"
+            android:textSize="32sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shop_fruit_us"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/yellowbutton"
+            android:gravity="center"
+            android:text="Add to Cart "
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
